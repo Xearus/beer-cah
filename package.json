@@ -1,8 +1,8 @@
 {
-  "name": "hubot-cah",
+  "name": "beer-cah",
   "description": "Cards Against Humanity for Hubot",
   "version": "0.1.0",
-  "author": "Cory Metcalfe <corymetcalfe@gmail.com>",
+  "authors": ["Cory Metcalfe <corymetcalfe@gmail.com>", "Francis Gagnon <mrfrancisgagnon@gmail.com>"],
   "license": "MIT",
   "keywords": [
     "hubot",
@@ -12,13 +12,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/coryallegory/hubot-cah"
+    "url": "git://github.com/Xearus/beer-cah"
   },
   "bugs": {
-    "url": "https://github.com/coryallegory/hubot-cah/issues"
+    "url": "https://github.com/Xearus/beer-cah/issues"
   },
   "dependencies": {
-    "coffee-script": "~1.6"
+    "coffee-script": "~1.6",
+    "express": "^4.13.3"
   },
   "devDependencies": {
     "mocha": "*",
@@ -30,7 +31,7 @@
   "scripts": {
     "test": "script/test"
   },
-  "homepage": "https://github.com/coryallegory/hubot-cah",
+  "homepage": "https://github.com/Xearus/beer-cah",
   "directories": {
     "test": "test"
   }

@@ -5,5 +5,4 @@ module.exports = (robot, scripts) ->
   scriptsPath = path.resolve(__dirname, 'src')
   fs.exists scriptsPath, (exists) ->
     if exists
-      robot.loadFile(scriptsPath, 'hubot-cah.coffee')
-      
+      robot.loadFile(scriptsPath, 'beer-cah.coffee')
